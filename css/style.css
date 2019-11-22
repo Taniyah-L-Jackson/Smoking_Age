@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*Overall Page END--------------------------------------------*/
+
+h1 {
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-bottom: 0px;
+    padding: 30px 0px;
+    background: black;
+    color: teal;
+    font-size: 30px;
+    text-align: center
+}
+
+/*--------Title END-------------------------------------------------------------------------------------------------------------------------*/
+
+.square {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    margin-left: 30%;
+    border: 2px solid black;
+    background: whitesmoke;
+    font-size: 40px;
+    text-align: center
+}
+
+input {
+    position: absolute;
+    height: 70px;
+    width: 370px;
+    margin-top: 110px;
+    margin-left: 35%;
+    padding-left: 65px;;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    background: rgb(0, 194, 194);
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
+
+/*-------Input END----------------------------------------------------------------------------------------------------------------------*/
+
+button {
+    position: absolute;
+    height: 50px;
+    width: 230px;
+    margin-top: 16%;
+    margin-left: 40%;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 30px;
+    background: rgb(255, 255, 255);
+    font-size: 33px;
+    text-align: center;
+}
+
+button:hover {
+    background: grey;
+    border: 2px solid black;
+    color: white;
+}
+
+p {
+    position: absolute;
+    height: 30px;
+    width: 500px;
+    margin-left: 30%;
+    padding-top: 20px;
+    color: grey;
+    font-size: 30px;
+    text-align: center;
+}
+/*--------Button END-----------------------------------------------------------------------------------------------------------------------*/
